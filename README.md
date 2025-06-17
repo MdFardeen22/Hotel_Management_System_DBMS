@@ -1,4 +1,4 @@
-# 🏨 Hotel Management System using Flask and SQLite3
+# Hotel Management System using Flask and SQLite3
 
 This is a simple **Hotel Management System** built using **Python Flask** and **SQLite3**. It allows users to manage hotel guests, book rooms, and view bookings through a basic web interface.
 
