@@ -17,8 +17,8 @@ This is a simple **Hotel Management System** built using **Python Flask** and **
 
 - **Backend:** Python Flask
 - **Database:** SQLite3
-- **Frontend:** HTML (with Flask Jinja2 templates)
-- **Tools Used:** SQLite3, Jinja2, Flask, SQL
+- **Frontend:** HTML (with Flask)
+- **Tools Used:** SQLite3, Flask, SQL
 
 ---
 
