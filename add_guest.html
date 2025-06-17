@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Guest</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='add_guest.css') }}">
+</head>
+<body>
+    <h1>Add Guest</h1>
+    <form action="/add_guest" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone" required><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

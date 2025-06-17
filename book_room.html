@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Room</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='book_room.css') }}">
+</head>
+<body>
+    <h1>Book Room</h1>
+    <form action="/book_room" method="post">
+        <label for="room_number">Room Number:</label><br>
+        <input type="number" id="room_number" name="room_number" required><br>
+
+        <label for="guest_id">Guest:</label><br>
+        <select id="guest_id" name="guest_id" required>
+            {% for guest in guests %}
+                <option value="{{ guest[0] }}">{{ guest[1] }} (ID: {{ guest[0] }})</option>
+            {% endfor %}
+        </select><br>
+
+        <label for="check_in_date">Check-In Date:</label><br>
+        <input type="date" id="check_in_date" name="check_in_date" required><br>
+
+        <label for="check_out_date">Check-Out Date:</label><br>
+        <input type="date" id="check_out_date" name="check_out_date" required><br>
+
+        <input type="submit" value="Book">
+    </form>
+</body>
+</html>
