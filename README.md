@@ -7,7 +7,7 @@ This is a simple **Hotel Management System** built using **Python Flask** and **
 ## 📌 Key Features
 
 - 📋 Add and view guests
-- 🛏️ Book hotel rooms with check-in/check-out dates
+- 🛏️ Book hotel rooms
 - 🗑️ Remove guest records
 - 📄 View all booked rooms
 
